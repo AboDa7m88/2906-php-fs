@@ -57,4 +57,15 @@ function introduce($name, $age, $city) {
 introduce('Abdelrahman','22','Damanhour');
 
 
+// full name function:
+function Discount($price, $discount) {
+    $amount = ($price * $discount)/100;
+    $total = $price - $amount;
+    echo "Applied discount for $price with $discount % off is  $total";
+    echo '<hr>';
+}
+
+Discount(120,10);
+
+
 ?>
