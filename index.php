@@ -99,10 +99,14 @@ function calculator($n1, $n2) {
 calculator(4,2);
 
 
+// temp. convert function:
+function tempConvert ($temp) {
+    $c_temp = ($temp - 32)*5/9;
+    echo "Temp. in celsius for $temp fahrenheit is :  $c_temp";
+    echo '<hr>';
+}
 
-
-
-
+tempConvert(125);
 
 
 
