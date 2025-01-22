@@ -48,6 +48,13 @@ function fullName($firstName, $lastName) {
 fullName('Abdelrahman','Mostafa');
 
 
+// full name function:
+function introduce($name, $age, $city) {
+    echo "My name is $name, I am $age years old, and I leave in $city";
+    echo '<hr>';
+}
+
+introduce('Abdelrahman','22','Damanhour');
 
 
 ?>
