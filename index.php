@@ -79,4 +79,31 @@ function rectArea($width, $height) {
 rectArea(2,4);
 
 
+
+// simple calculator function:
+function calculator($n1, $n2) {
+    $x = $n1 + $n2;
+    $y = $n1 - $n2;
+    $z = $n1 * $n2;
+    $k = $n1 / $n2;
+    echo "sum is:  $x";
+    echo '<br>';
+    echo "sub is:  $y";
+    echo '<br>';
+    echo "mul is:  $z";
+    echo '<br>';
+    echo "div is:  $k";
+    echo '<hr>';
+}
+
+calculator(4,2);
+
+
+
+
+
+
+
+
+
 ?>
