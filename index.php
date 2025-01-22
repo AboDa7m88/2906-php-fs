@@ -48,7 +48,7 @@ function fullName($firstName, $lastName) {
 fullName('Abdelrahman','Mostafa');
 
 
-// full name function:
+// introduce myself function:
 function introduce($name, $age, $city) {
     echo "My name is $name, I am $age years old, and I leave in $city";
     echo '<hr>';
@@ -66,6 +66,17 @@ function Discount($price, $discount) {
 }
 
 Discount(120,10);
+
+
+
+// RectAngle Area function:
+function rectArea($width, $height) {
+    $area = $width * $height;
+    echo "this rectangle area is:  $area";
+    echo '<hr>';
+}
+
+rectArea(2,4);
 
 
 ?>
