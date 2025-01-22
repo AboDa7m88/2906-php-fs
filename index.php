@@ -9,6 +9,13 @@ function greet($name) {
 
 greet('Abdelrahman');
 
+// Age Function
+function Age ($name, $age){
+    echo "$name is $age years old";
+}
+
+Age('Abdelrahman','22');
+
 
 
 ?>
