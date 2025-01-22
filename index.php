@@ -39,4 +39,15 @@ mul('3' ,'5');
 
 
 
+// full name function:
+function fullName($firstName, $lastName) {
+    echo "Full name is $firstName $lastName";
+    echo '<hr>';
+}
+
+fullName('Abdelrahman','Mostafa');
+
+
+
+
 ?>
