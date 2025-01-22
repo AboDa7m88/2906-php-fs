@@ -109,5 +109,12 @@ function tempConvert ($temp) {
 tempConvert(125);
 
 
+// circle area 
+function circleArea($red){
+    $result = ($red^2) * 3.14;
+    echo "this circle area is: $red";
+}
+circleArea(4);
+
 
 ?>
