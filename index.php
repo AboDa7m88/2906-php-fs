@@ -27,4 +27,16 @@ function sum ($n1, $n2) {
 
 sum('3' ,'5');
 
+
+// mul of two num.s 
+function mul ($n1, $n2) {
+    $n3 = $n1 * $n2;
+    echo "mul is:  $n3";
+    echo '<hr>';
+}
+
+mul('3' ,'5');
+
+
+
 ?>
