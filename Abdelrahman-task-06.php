@@ -50,3 +50,8 @@ function calculatePerimeter($width, $height) {
 function average($a, $b, $c) {
     return ($a + $b + $c) / 3;
 }
+
+// function convertTemperature from c to f
+function convertTemperature($celsius) {
+    return ($celsius * 9 / 5) + 32;
+}
