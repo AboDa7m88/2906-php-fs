@@ -14,3 +14,8 @@ function multiply ($a,$b,$c){
 function divide($a,$b) {
     return $a/$b;
 }
+
+//function to calculate Area
+function calculateArea($width, $height) {
+    return $width * $height;
+}
