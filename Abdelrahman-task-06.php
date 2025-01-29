@@ -19,3 +19,8 @@ function divide($a,$b) {
 function calculateArea($width, $height) {
     return $width * $height;
 }
+
+//function to square a num
+function square($n) {
+    return $n ** 2;
+}
