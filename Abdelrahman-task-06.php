@@ -80,3 +80,8 @@ function modulus($a, $b) {
 function calculateBMI($weight, $height) {
     return $weight / ($height ** 2);
 }
+
+// convertToKilometers function
+function convertToKilometers($meters) {
+    return $meters / 1000;
+}
