@@ -45,3 +45,8 @@ function convertToSeconds($days) {
 function calculatePerimeter($width, $height) {
     return 2 * ($width + $height);
 }
+
+//average function 
+function average($a, $b, $c) {
+    return ($a + $b + $c) / 3;
+}
