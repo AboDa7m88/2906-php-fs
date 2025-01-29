@@ -40,3 +40,8 @@ function convertToMinutes($hour) {
 function convertToSeconds($days) {
     return $days * 24 * 60 * 60;
 }
+
+//function to calculate the perimeter
+function calculatePerimeter($width, $height) {
+    return 2 * ($width + $height);
+}
