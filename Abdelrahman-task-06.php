@@ -24,3 +24,7 @@ function calculateArea($width, $height) {
 function square($n) {
     return $n ** 2;
 }
+//function to cube a num
+function cube($n) {
+    return $n ** 3;
+}
