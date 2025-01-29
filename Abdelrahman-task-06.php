@@ -34,3 +34,9 @@ function cube($n) {
 function convertToMinutes($hour) {
     return $hour * 60;
 }
+
+
+// function to convert days to seconds
+function convertToSeconds($days) {
+    return $days * 24 * 60 * 60;
+}
