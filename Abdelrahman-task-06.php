@@ -55,3 +55,8 @@ function average($a, $b, $c) {
 function convertTemperature($celsius) {
     return ($celsius * 9 / 5) + 32;
 }
+
+//function calculateSpeed
+function calculateSpeed($distance, $time) {
+    return $distance / $time;
+}
