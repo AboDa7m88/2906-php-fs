@@ -70,3 +70,10 @@ function hypotenuse($sideA, $sideB) {
 function power($base, $exponent) {
     return $base ** $exponent;
 }
+
+//modulus function 
+function modulus($a, $b) {
+    return $a % $b;
+}
+
+
