@@ -9,3 +9,8 @@ function addNumbers($n1,$n2){
 function multiply ($a,$b,$c){
     return $a*$b*$c;
 }
+
+//function to take 2 num's and return the divide
+function divide($a,$b) {
+    return $a/$b;
+}
