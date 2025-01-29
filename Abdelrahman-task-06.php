@@ -65,3 +65,8 @@ function calculateSpeed($distance, $time) {
 function hypotenuse($sideA, $sideB) {
     return sqrt($sideA ** 2 + $sideB ** 2);
 }
+
+//power function
+function power($base, $exponent) {
+    return $base ** $exponent;
+}
