@@ -76,4 +76,7 @@ function modulus($a, $b) {
     return $a % $b;
 }
 
-
+// calculateBMI function
+function calculateBMI($weight, $height) {
+    return $weight / ($height ** 2);
+}
