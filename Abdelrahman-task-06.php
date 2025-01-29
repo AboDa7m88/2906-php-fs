@@ -85,3 +85,8 @@ function calculateBMI($weight, $height) {
 function convertToKilometers($meters) {
     return $meters / 1000;
 }
+
+// calculateInterest function 
+function calculateInterest($principal, $rate, $time) {
+    return $principal * $rate * $time / 100;
+}
