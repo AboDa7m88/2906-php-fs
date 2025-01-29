@@ -60,3 +60,8 @@ function convertTemperature($celsius) {
 function calculateSpeed($distance, $time) {
     return $distance / $time;
 }
+
+//function hypotenuse
+function hypotenuse($sideA, $sideB) {
+    return sqrt($sideA ** 2 + $sideB ** 2);
+}
