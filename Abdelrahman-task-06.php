@@ -95,3 +95,8 @@ function calculateInterest($principal, $rate, $time) {
 function compoundInterest($principal, $rate, $time) {
     return $principal * (pow((1 + $rate / 100), $time) - 1);
 }
+
+// findPercentage function
+function findPercentage($value, $total) {
+    return ($value / $total) * 100;
+}
