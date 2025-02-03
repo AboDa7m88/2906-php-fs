@@ -1,5 +1,5 @@
 <?php
-$score = 98;
+$score = 70;
 $color = 'black';
 $grade = 'N/A';
 
@@ -43,3 +43,19 @@ $grade = 'N/A';
 
 
  echo "<h3 style='color: $color'>Score $score is $grade</h3>";
+
+
+
+
+
+ // week msg 
+ $day_name ="monday";
+ if ($day_name == "saturday" || $day_name == "friday"){
+    echo "this day is $day_name, happy weekend";
+ }
+ elseif ($day_name == "sunday" || $day_name == "monday"|| $day_name == "tuesday"|| $day_name == "wednesday"|| $day_name == "thursday" ){
+    echo "this day is $day_name, enjoy your work :)";
+ }
+ else {
+    echo "Invalid day name";
+ }
